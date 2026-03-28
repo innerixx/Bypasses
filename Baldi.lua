@@ -43,9 +43,9 @@ local function killAll()
         local oldlplrpos = root.CFrame
         local oldpos = pad.CFrame
         task.wait(0.05)
-        firetouchinterest(root, pad, 0)
+        root.CFrame = CFrame.new(516.492737, 3.92007899, -151.86438, 0, 0, -1, 1, 0, 0, 0, -1, 0)
         task.wait(0.1)
-        firetouchinterest(root, pad, 1)
+        root.CFrame = CFrame.new(516.492737, 3.92007899, -151.86438, 0, 0, -1, 1, 0, 0, 0, -1, 0)
         task.wait(0.1)
         pad.CFrame = oldpos
         task.wait(0.7)

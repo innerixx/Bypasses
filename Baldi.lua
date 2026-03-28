@@ -25,7 +25,7 @@ local function getPad()
 end
 local function getKiller()
     local killer
-    repeat killer = workspace:FindFirstChild("Sammywammylol502") task.wait() until killer
+    repeat killer = workspace:FindFirstChild(lplr.Name) task.wait() until killer
     local torso
     repeat torso = killer:FindFirstChild("Torso") task.wait() until torso
     pcall(function()
